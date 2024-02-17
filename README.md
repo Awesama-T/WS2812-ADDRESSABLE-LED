@@ -1,18 +1,4 @@
-# FPGA Coding Exercise
-Our intent is to learn a bit about how you would approach your work at LeafLabs,
-your facility with HDL design, and your problem-solving skillset.  As such:
-1.  This is an "open book exam".  Please feel free to use whatever tools,
-techniques, or materials you care to while respecting the original skeleton of
-the design as provided.
-2.  This is your opportunity to impress us with your work.  Please take the time
-you need to craft a correct and careful solution.
-3.  Incorporating code from elsewhere is fine, but please credit the author(s).
-4.  We'd appreciate your writing a brief summary of how you analyzed and solved
-the problem, and why you chose the solution that you did.  Think of it as akin
-to an extended git commit message.
-5. While we won't ask you to deploy this on an actual FPGA, we want to ensure
-this code can be used on real hardware.  Please incorporate best practices for
-supporting both simulation and real hardware.
+# WS2812 LED
 
 ## Specification
 You are tasked with designing a controller for an LED intended to be used in a cascaded chain (see [Cascade Description](#cascade-description) diagram below). Codes are transmitted to the LED, which uses the first one received as its code and passes on additional codes to LEDs further along the chain until a reset signal is received, where the process begins again. Protocol and timing details are provided below and in linked datasheet.
