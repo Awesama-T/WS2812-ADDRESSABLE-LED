@@ -1,7 +1,7 @@
 # WS2812 LED
 
 ## Specification
-You are tasked with designing a controller for an LED intended to be used in a cascaded chain (see [Cascade Description](#cascade-description) diagram below). Codes are transmitted to the LED, which uses the first one received as its code and passes on additional codes to LEDs further along the chain until a reset signal is received, where the process begins again. Protocol and timing details are provided below and in linked datasheet.
+Tasked with designing a controller for an LED intended to be used in a cascaded chain (see [Cascade Description](#cascade-description) diagram below). Codes are transmitted to the LED, which uses the first one received as its code and passes on additional codes to LEDs further along the chain until a reset signal is received, where the process begins again. Protocol and timing details are provided below and in linked datasheet.
 <!-- language: lang-none -->
                  ------------------
                  | led_controller |
